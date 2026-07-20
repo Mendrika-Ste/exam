@@ -28,6 +28,11 @@ function checkLogin($etu)
 
     }
 
+// function get_produit_membre($etu){
+//     $sql="SELECT produit.nom as nom_produit,prix_vente,quantite_dispo FROM produit_membre join membre on produit_membre.id_membre=membre.id_membre join produit on produit_membre.id_produit=produit.id_produit WHERE numero_etu='%s'"
+//     $sql = sprintf($sql, $etu);
+//     return get_one_line($sql);
+// }
 
 
 
